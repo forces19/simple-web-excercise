@@ -1,6 +1,8 @@
+// change header
 var myHeading = document.querySelector('h1');
 myHeading.textContent = 'Hello world!';
 
+// change image on click
 var myImage = document.querySelector('img');
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
